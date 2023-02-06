@@ -5,8 +5,6 @@ metadata:
   name: dstrategies-back
 spec:
   replicas: 1
-  selector:
-    matchLabels:
   strategy:
     blueGreen:
       activeService: rollout-bluegreen-active
