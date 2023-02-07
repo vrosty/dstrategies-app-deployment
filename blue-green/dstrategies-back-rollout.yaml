@@ -10,12 +10,12 @@ spec:
       app: dstrategies-back
   strategy:
     blueGreen:
-      activeService: rollout-bluegreen-active
+      activeService: dstrategies-back-online
       autoPromotionEnabled: false
       prePromotionAnalysis:
         templates:
           - templateName: dstrategies-back-analysis-template
-      previewService: rollout-bluegreen-preview
+      previewService: dstrategies-back-offline
   template:
     metadata:
       labels:
