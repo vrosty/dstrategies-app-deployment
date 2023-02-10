@@ -1,4 +1,4 @@
 service:
   image:
     version: V1.0.0
-domain: <OCP_DOMAIN>
+domain: kbalab.lab.psi.pnq2.redhat.com
